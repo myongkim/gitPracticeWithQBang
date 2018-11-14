@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
       qbbangLabel.frame = CGRect(x: 150, y: 300, width: 100, height: 100)
       qbbangLabel.backgroundColor = .black
+      qbbangLabel.text = "qbbang"
       
       view.addSubview(qbbangLabel)
     }
