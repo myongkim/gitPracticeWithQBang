@@ -9,10 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
+  var qbbangLabel = UILabel()
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+      qbbangLabel.frame = CGRect(x: 150, y: 300, width: 100, height: 100)
+      qbbangLabel.backgroundColor = .black
+      
+      view.addSubview(qbbangLabel)
     }
 
 
