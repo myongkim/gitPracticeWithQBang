@@ -9,8 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-  
   var qbbangLabel = UILabel()
+  let isaacKim = IsaacKim()
   
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,8 @@ class ViewController: UIViewController {
       qbbangLabel.text = "qbbang"
       
       view.addSubview(qbbangLabel)
-    }
-
+  }
+    
 
 }
 
